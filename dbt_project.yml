@@ -10,6 +10,6 @@ vars:
 models:
   youtube_analytics:
     +materialized: table
-    +schema: youtube
+    +schema: youtube_summary_dev
     intermediate:
       +materialized: ephemeral
